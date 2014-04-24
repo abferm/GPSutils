@@ -1,0 +1,5 @@
+GPSpoint aPoint = new GPSpoint(0,1,0,"testPoint");
+pointMarker aMarker = new pointMarker(1,0,0,"Test Marker");
+double distance = aMarker.findDistance(aPoint);
+double heading = aMarker.findHeading(aPoint);
+heading
